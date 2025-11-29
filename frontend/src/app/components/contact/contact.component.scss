@@ -1,0 +1,112 @@
+input:focus::placeholder,
+textarea:focus::placeholder {
+  color: transparent;
+}
+.bold-title {
+  font-weight: bold !important;
+  text-align: left !important;
+  display: block;
+}
+.nrms-contact-card {
+  border: 2px solid var(--secondary-color);
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(44,62,80,0.08);
+  background: #fff;
+  padding: 16px 24px;
+}
+.form-fields-vertical {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  align-items: stretch;
+}
+.custom-control-group {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.custom-control-group .icon-img,
+.icon-img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  opacity: 0.85;
+  vertical-align: middle;
+  margin-bottom: 1px;
+}
+.material-form {
+  padding: 24px 16px;
+  border-radius: 16px;
+  background: #f8fafc;
+  box-shadow: 0 2px 12px rgba(44,62,80,0.08);
+  border: 1.5px solid var(--secondary-color);
+}
+
+.themed-field.mat-form-field {
+  background: #fff;
+  border-radius: 8px;
+  border: 2px solid var(--secondary-color);
+  box-shadow: 0 1px 4px rgba(44,62,80,0.04);
+}
+
+.form-actions button {
+  background: var(--secondary-color) !important;
+  color: #fff !important;
+  font-weight: 600;
+  letter-spacing: 1px;
+  box-shadow: 0 2px 8px rgba(44,62,80,0.08);
+  min-width: 90px !important;
+  padding: 6px 16px !important;
+  font-size: 1rem !important;
+}
+.contact-section {
+  padding: 40px 0;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.contact-header {
+  margin-bottom: 32px;
+}
+
+.contact-details-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  margin-bottom: 32px;
+}
+
+.contact-info-card, .contact-form-card {
+  flex: 1 1 320px;
+  min-width: 320px;
+}
+
+.contact-form-card form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.contact-map-card {
+  margin-top: 32px;
+}
+
+@media (max-width: 900px) {
+  .contact-details-grid {
+    flex-direction: column;
+    gap: 24px;
+  }
+}

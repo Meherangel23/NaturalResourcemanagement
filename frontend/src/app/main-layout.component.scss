@@ -1,0 +1,53 @@
+.main-layout {
+  height: 100vh;
+}
+
+.side-menu {
+  width: 220px;
+  background: blue;
+  padding-top: 16px;
+}
+
+nav a[mat-list-item] {
+  display: block;
+  padding: 12px 24px;
+  color: black;
+  font-size: 1.1rem;
+  text-decoration: none;
+  border-radius: 8px;
+  margin-bottom: 4px;
+}
+
+nav a[mat-list-item]:hover, nav a[mat-list-item].active {
+  background: darkgrey;
+  color: #b7f2e3;
+}
+
+.top-section {
+  width: 100%;
+  background: grey;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+.main-content-layout {
+  display: flex;
+  min-height: calc(100vh - 64px - 60px);
+}
+
+
+.main-section {
+  flex: 1;
+  padding: 24px;
+  background: whitesmoke;
+}
+
+
+
+app-footer {
+  width: 100%;
+  background: blue;
+  
+  padding: 20px 0;
+  text-align: center;
+  font-size: 1rem;
+}

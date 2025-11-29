@@ -1,0 +1,69 @@
+.brands-section {
+  padding: 60px 0;
+}
+
+.brand-category {
+  margin-bottom: 40px;
+}
+
+.brand-category h3 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color: var(--primary-color);
+}
+
+.brand-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.brand-logo {
+  text-align: center;
+  padding: 20px;
+  background-color: var(--light-gray);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.brand-logo img {
+  max-width: 150px;
+  height: 80px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.certificates-section {
+  margin-top: 60px;
+}
+
+.certificates-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  text-align: center;
+  color: var(--dark-gray);
+}
+
+.certificates-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  justify-content: center;
+}
+
+.certificate-card {
+  background-color: var(--light-gray);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.certificate-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}

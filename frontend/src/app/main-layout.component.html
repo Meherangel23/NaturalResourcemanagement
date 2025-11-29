@@ -1,0 +1,33 @@
+<mat-sidenav-container class="main-layout">
+  <mat-sidenav #sidenav mode="side" [opened]="true" class="side-menu">
+    <nav>
+    <!-- <a mat-list-item routerLink="/home">Home</a>--> 
+      <a mat-list-item routerLink="/about">About</a>
+      <a mat-list-item routerLink="/solutions">Solutions</a>
+      <a mat-list-item routerLink="/design-tool">Design Tool</a>
+      <a mat-list-item routerLink="/case-studies">Case Studies</a>
+      <a mat-list-item routerLink="/contact">Contact</a>
+      <a mat-list-item routerLink="/services">Services</a>
+      <a mat-list-item routerLink="/projects">Projects</a>
+      <a mat-list-item routerLink="/brands">Brands</a>
+      <a mat-list-item routerLink="/clients">Clients</a>
+    </nav>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <div class="top-section">
+      <app-navigation></app-navigation>
+    </div>
+    <div class="-content-layout">
+      <div class="left-section">
+        <!-- Optional: Add widgets or info here -->
+      </div>
+      <div class="main-section">
+        <router-outlet></router-outlet>
+      </div>
+      <div class="right-section">
+        <!-- Optional: Add widgets or info here -->
+      </div>
+    </div>
+   <!-- <app-footer></app-footer> -->
+  </mat-sidenav-content>
+</mat-sidenav-container>

@@ -1,0 +1,27 @@
+<div class="chatbot-container" [class.minimized]="isMinimized" [class.maximized]="isMaximized" *ngIf="!isClosed">
+  <div class="chat-header">
+    <p>Chat with us!</p>
+    <div class="header-buttons">
+      <button mat-icon-button (click)="minimize()">
+        <img src="/assets/images/minimize-icon.png" alt="Minimize" class="icon-img" style="width:20px; height:20px; vertical-align:middle;">
+      </button>
+      <button mat-icon-button (click)="maximize()">
+        <img src="/assets/images/maximize-icon.png" alt="Maximize" class="icon-img" style="width:20px; height:20px; vertical-align:middle;">
+      </button>
+      <button mat-icon-button (click)="close()">
+        <img src="/assets/images/close-icon.png" alt="Close" class="icon-img" style="width:20px; height:20px; vertical-align:middle;">
+      </button>
+    </div>
+  </div>
+  <div class="chat-messages">
+    <div *ngFor="let msg of messages" class="message {{ msg.sender }}">
+      {{ msg.text }}
+    </div>
+  </div>
+  <div class="chat-input">
+    <input matInput placeholder="Type your message..." [(ngModel)]="message">
+    <button mat-icon-button (click)="sendMessage()">
+      <mat-icon>send</mat-icon>
+    </button>
+  </div>
+</div>

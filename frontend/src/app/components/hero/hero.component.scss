@@ -1,0 +1,59 @@
+.hero-section {
+  position: relative;
+  height: 36vh;
+  background-image: url('/assets/images/Solar Panel Irrigation.png');
+  background-size: cover;
+  background-position: center top;
+  color: rgb(63, 92, 222);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hero-text {
+  position: relative;
+  z-index: 1;
+}
+
+.hero-text h1 {
+  font-size: 2.1rem;
+  margin-bottom: 12px;
+  color: white;
+}
+
+.hero-text p {
+  font-size: 0.72rem;
+  margin-bottom: 18px;
+  color: white;
+}
+
+.cta-button {
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 9px 18px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #2980b9; // A slightly darker blue
+  text-decoration: none;
+}
+
+.quick-links {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}

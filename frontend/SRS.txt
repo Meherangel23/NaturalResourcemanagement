@@ -1,0 +1,97 @@
+Website Creation Document for NRMS
+🧭 Purpose of the Website
+To showcase NRMS’s expertise in renewable energy and irrigation solutions, highlight its authorized partnerships, and provide a platform for clients to explore services, projects, and contact information.
+
+🏗️ Website Structure
+1. Homepage
+Tagline: “Conservation to Harvest – Innovative Solutions for Energy”
+
+Hero image (from PDF): Use branding visuals or certificates
+
+Quick links to Services, Projects, and Contact
+
+2. About Us
+Vision statement: “To become a pioneer company for conserving natural resources…”
+
+Company background and mission
+
+Office locations: Ashok Nagar & Gogunda Bypass, Udaipur
+
+3. Services
+On Grid Solar Systems
+
+Solar Irrigation Systems
+
+Hybrid Solar Systems
+
+Micro Irrigation
+
+Solar Drinking Systems
+
+Estimation & Designing
+
+Each service can have a dedicated section with visuals and brief descriptions.
+
+4. Projects
+Off-grid solar systems for schools (21 units)
+
+Solar irrigation pumps (450 units)
+
+Small industry solar systems (2 units)
+
+Hybrid systems (1 unit)
+
+On-grid systems (3 units)
+
+Include project photos and client testimonials if available.
+
+5. Brands We Represent
+Split into two categories:
+
+Solar: Shakti Pumps, Lubi Solar, Renewsys, Waa Cab
+
+Irrigation: Jain Irrigation, Kisan Irrigation, Rivulis, Drip Tech
+
+Include logos and authorization certificates.
+
+6. Clients
+Institutional: CINI (TATA TRUST), PRADAN, PEDO, etc.
+
+Commercial: Oberoi Hotels, Silver Groups, Pyrotech, etc.
+
+Add client logos and case studies if possible.
+
+7. Authorized Dealer Certificates
+Display scanned certificates from:
+
+Shakti Pumps
+
+Lubi Electronics
+
+Kisan Irrigation
+
+Jain Irrigation
+
+KM Industries (Shantidhara HDPE Pipes)
+
+These build trust and credibility.
+
+8. Contact Us
+Email: info@nrms.co.in
+
+Phone: 73400 72531
+
+Address: 341, Ashok Nagar, Udaipur
+
+Embedded map and contact form
+
+🖼️ Image Handling
+The document contains several certificates and brand logos. Here's how to handle them:
+
+Extract Images: Use a PDF tool (like Adobe Acrobat or Python’s PyMuPDF) to extract all embedded images.
+
+Organize: Categorize images into folders: Certificates, Brand Logos, Project Photos
+
+Optimize: Compress and resize for web use (tools like TinyPNG or PIL in Python)
+
+Use on Site: Display certificates in a carousel or grid format under “Authorized Dealer” section

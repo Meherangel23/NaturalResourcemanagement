@@ -1,0 +1,11 @@
+.design-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-fields-container {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}

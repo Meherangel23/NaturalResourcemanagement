@@ -1,0 +1,97 @@
+mat-toolbar {
+	flex-direction: column;
+	align-items: center;
+}
+
+.nav-header {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 16px;
+}
+
+.nav-buttons {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	gap: 12px;
+}
+
+mat-toolbar {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.title {
+	flex: 1;
+	text-align: center;
+	font-size: 2.5rem;
+	font-weight: bold;
+	color: #1976d2;
+	letter-spacing: 2px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.spacer {
+	flex: 0.1;
+}
+
+/* Styled for Angular Material elevated buttons (preferred) */
+a[mat-elevated-button], button[mat-elevated-button], a[mat-raised-button], button[mat-raised-button] {
+	margin: 0 8px;
+	font-size: 0.95rem;
+	font-weight: 600;
+	letter-spacing: 0.5px;
+	border-radius: 28px;
+	padding: 10px 24px !important;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+	background: linear-gradient(135deg, var(--light-gray) 0%, #f5f5f5 100%) !important;
+	color: var(--primary-color) !important;
+	border: 2px solid #dcdfe3;
+	transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+	position: relative;
+	overflow: hidden;
+	text-transform: uppercase;
+}
+
+/* subtle shine effect */
+a[mat-elevated-button]::before, button[mat-elevated-button]::before,
+a[mat-raised-button]::before, button[mat-raised-button]::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: -100%;
+	width: 100%;
+	height: 100%;
+	background: rgba(255, 255, 255, 0.12);
+	transition: left 0.35s ease;
+}
+
+/* hover / active states */
+a[mat-elevated-button]:hover, button[mat-elevated-button]:hover,
+a[mat-raised-button]:hover, button[mat-raised-button]:hover {
+	background: linear-gradient(135deg, #f0f2f4 0%, #e6eaec 100%) !important;
+	color: var(--primary-color) !important;
+	box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+	transform: translateY(-2px);
+	border-color: #dcdfe3;
+}
+
+a[mat-elevated-button]:hover::before, button[mat-elevated-button]:hover::before,
+a[mat-raised-button]:hover::before, button[mat-raised-button]:hover::before {
+	left: 100%;
+}
+
+a[mat-elevated-button]:active, button[mat-elevated-button]:active,
+a[mat-raised-button]:active, button[mat-raised-button]:active {
+	transform: translateY(-1px);
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+a[mat-elevated-button]:focus, button[mat-elevated-button]:focus,
+a[mat-raised-button]:focus, button[mat-raised-button]:focus {
+	outline: none;
+	box-shadow: 0 0 0 4px rgba(44, 62, 80, 0.06), 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+

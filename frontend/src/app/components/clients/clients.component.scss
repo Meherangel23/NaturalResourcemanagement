@@ -1,0 +1,36 @@
+.clients-section {
+  padding: 60px 0;
+}
+
+.client-category {
+  margin-bottom: 40px;
+}
+
+.client-category h3 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color: var(--primary-color);
+}
+
+.client-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.client-logo {
+  text-align: center;
+  padding: 20px;
+  background-color: var(--light-gray);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.client-logo img {
+  max-width: 150px;
+  height: 80px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
