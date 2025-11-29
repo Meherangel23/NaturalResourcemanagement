@@ -1,0 +1,2 @@
+ng @angular/core@20
+ng update @angular-devkit/build-angular@20
